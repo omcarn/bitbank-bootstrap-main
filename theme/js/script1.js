@@ -14,7 +14,6 @@
       logClick(topevent);
     }, { once: true });
 
-    
       const elements = document.querySelectorAll('.discountLink');
       elements.forEach(element => {
         element.addEventListener('click', function (clickevent) {
